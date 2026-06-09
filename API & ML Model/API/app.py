@@ -171,7 +171,7 @@ def receive_email():
     data = request.get_json()
 
     sender_email = 'aihealthfriend@gmail.com'
-    sender_password = 'wwgc qhwf ouij qanq'
+    sender_password = ''
 
     recipient_email = data.get('recipient_email')
     subject = data.get('subject')
